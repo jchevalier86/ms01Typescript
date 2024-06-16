@@ -16,7 +16,7 @@
   \***************************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("\n// index.ts\nvar math = __webpack_require__(/*! ./math.ts */ \"./src/ex10/math.ts\"); // Charger math.js avec require\n//const result = math.add(2, 3); // Utiliser la fonction add\n// Mettre à jour le contenu d'un élément HTML avec le résultat\n//(document.getElementById('result') as HTMLDivElement).innerText = `2 + 3 = ${result}`;\n// Fonction pour appeler add avec deux paramètres et afficher le résultat\nfunction addAndDisplay(x, y) {\n    var result = math.add(x, y);\n    var resultElement = document.getElementById('resultex10');\n    if (resultElement) {\n        resultElement.innerText = \"\".concat(x, \" + \").concat(y, \" = \").concat(result);\n    }\n}\nwindow.addAndDisplay = addAndDisplay;\n\n\n//# sourceURL=webpack://mon-projet/./src/ex10/index.ts?");
+eval("\n// index.ts\nvar math = __webpack_require__(/*! ./math.ts */ \"./src/ex10/math.ts\"); // Charger math.js avec require\nvar studentNumber = 7;\nconsole.log(studentNumber);\n//const result = math.add(2, 3); // Utiliser la fonction add\n// Mettre à jour le contenu d'un élément HTML avec le résultat\n//(document.getElementById('result') as HTMLDivElement).innerText = `2 + 3 = ${result}`;\n// Fonction pour appeler add avec deux paramètres et afficher le résultat\nfunction addAndDisplay(x, y) {\n    var result = math.add(x, y);\n    var resultElement = document.getElementById('resultex10');\n    if (resultElement) {\n        resultElement.innerText = \"\".concat(x, \" + \").concat(y, \" = \").concat(result);\n    }\n}\nwindow.addAndDisplay = addAndDisplay;\n\n\n//# sourceURL=webpack://mon-projet/./src/ex10/index.ts?");
 
 /***/ }),
 

@@ -1,6 +1,10 @@
 // index.ts
 const math = require('./math.ts'); // Charger math.js avec require
 
+let studentNumber: number=7;
+console.log(studentNumber);
+
+
 //const result = math.add(2, 3); // Utiliser la fonction add
 
 // Mettre à jour le contenu d'un élément HTML avec le résultat
@@ -15,3 +19,5 @@ function addAndDisplay(x:number, y:number) {
   }
 
   window.addAndDisplay = addAndDisplay;
+
+
