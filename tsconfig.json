@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "outDir": "./dist",
+      "strict": true,
+      "esModuleInterop": true   // Nécessaire pour la compatibilité avec CommonJS
+    },
+    "include": [
+      "src/**/*.ts"
+    ]
+  }
