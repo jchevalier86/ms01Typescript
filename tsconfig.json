@@ -8,5 +8,5 @@
     },
     "include": [
       "src/**/*.ts"
-    ]
+, "src/ex2/ex2.ts"    ]
   }
