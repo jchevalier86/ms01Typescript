@@ -17,7 +17,8 @@
     "author": "Votre Nom",
     "license": "MIT",
     "dependencies": {
-        "http-server": "^0.12.3"
+        "http-server": "^0.12.3",
+        "node-http-server": "^8.1.5"
     },
     "devDependencies": {
         "@babel/core": "^7.24.7",

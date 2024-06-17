@@ -16,7 +16,7 @@
   \***************************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("\n// index.ts\nvar math = __webpack_require__(/*! ./math.ts */ \"./src/ex10/math.ts\"); // Charger math.js avec require\nvar studentNumber = 7;\nconsole.log(studentNumber);\n//const result = math.add(2, 3); // Utiliser la fonction add\n// Mettre à jour le contenu d'un élément HTML avec le résultat\n//(document.getElementById('result') as HTMLDivElement).innerText = `2 + 3 = ${result}`;\n// Fonction pour appeler add avec deux paramètres et afficher le résultat\nfunction addAndDisplay(x, y) {\n    var result = math.add(x, y);\n    var resultElement = document.getElementById('resultex10');\n    if (resultElement) {\n        resultElement.innerText = \"\".concat(x, \" + \").concat(y, \" = \").concat(result);\n    }\n}\nwindow.addAndDisplay = addAndDisplay;\n\n\n//# sourceURL=webpack://mon-projet/./src/ex10/index.ts?");
+eval("\r\n// index.ts\r\nvar math = __webpack_require__(/*! ./math.ts */ \"./src/ex10/math.ts\"); // Charger math.js avec require\r\nvar studentNumber = 7;\r\nconsole.log(studentNumber);\r\n//const result = math.add(2, 3); // Utiliser la fonction add\r\n// Mettre à jour le contenu d'un élément HTML avec le résultat\r\n//(document.getElementById('result') as HTMLDivElement).innerText = `2 + 3 = ${result}`;\r\n// Fonction pour appeler add avec deux paramètres et afficher le résultat\r\nfunction addAndDisplay(x, y) {\r\n    var result = math.add(x, y);\r\n    var resultElement = document.getElementById('resultex10');\r\n    if (resultElement) {\r\n        resultElement.innerText = \"\".concat(x, \" + \").concat(y, \" = \").concat(result);\r\n    }\r\n}\r\nwindow.addAndDisplay = addAndDisplay;\r\n\n\n//# sourceURL=webpack://mon-projet/./src/ex10/index.ts?");
 
 /***/ }),
 
@@ -26,7 +26,7 @@ eval("\n// index.ts\nvar math = __webpack_require__(/*! ./math.ts */ \"./src/ex1
   \**************************/
 /***/ ((__unused_webpack_module, exports) => {
 
-eval("\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nexports.add = void 0;\n// math.ts\nfunction add(x, y) {\n    return x + y;\n}\nexports.add = add;\n\n\n//# sourceURL=webpack://mon-projet/./src/ex10/math.ts?");
+eval("\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nexports.add = void 0;\r\n// math.ts\r\nfunction add(x, y) {\r\n    return x + y;\r\n}\r\nexports.add = add;\r\n\n\n//# sourceURL=webpack://mon-projet/./src/ex10/math.ts?");
 
 /***/ })
 
