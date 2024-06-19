@@ -1,13 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mon Application</title>
+  <style>
+    .divFirst {
+      color: red;
+    }
+    #divSecond {
+      color: blue;
+    }
+    #divThree {
+      color: blue;
+    }
+  </style>
 </head>
+
 <body>
   <h3>Exercice 1</h3>
-
+    
+    <div class="divFirst"> Un </div>
+    <div id="divSecond"> Deux </div>
+    <div id="divThree"> Trois </div>
+    <div class="divFirst"> Quatre </div>
+    <button onclick="changerCouleurs()"> Test </button>
+    <button onclick="changerCouleursDocument()"> Test </button> 
+  
   <h3>Exercice 2</h3>
 
   <h3>Exercice 3</h3>
@@ -31,5 +51,6 @@
 
 
   <h3>Exercice final part 1 </h3>
+  <script src="dist/ex6/ex6.js"></script>
 </body>
 </html>
