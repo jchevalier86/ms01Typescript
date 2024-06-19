@@ -162,9 +162,9 @@ class ShowMessage<T> {
     }
 }
 
-let showMessage = new ShowMessage(1020);
-showMessage.afficher(); // 1020
-let showNombre = new ShowMessage("Bonjour");
-showNombre.afficher(); // Bonjour
-let showTask = new ShowMessage(taskFour.labelTask);
-showTask.afficher();
+let showNombre = new ShowMessage(1020);
+showNombre.afficher(); // 1020
+let showMessage = new ShowMessage("Bonjour");
+showMessage.afficher(); // Bonjour
+let showTask = new ShowMessage(taskFour);
+showTask.afficher(); // tache1 test1 2 Date
