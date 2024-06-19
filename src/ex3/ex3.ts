@@ -2,6 +2,7 @@ interface Task {
     labelTask: string;
     description?: string;
     date?: Date;
+    days: number;
 }
 
 let task: Task = {
