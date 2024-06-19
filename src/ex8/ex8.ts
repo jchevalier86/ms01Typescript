@@ -76,3 +76,25 @@ console.log(objBoth.firstValue + " " + objBoth.secondValue); // "Age 30"
 
 // La ligne suivante est commentée car la méthode getAgeAndName n'existe pas
 // console.log(objBoth.getAgeAndName()); //  "Age", 30
+
+class PairOne<T, U> {
+    private first: T;
+    private second: U;
+  
+    constructor(first: T, second: U) {
+      this.first = first;
+      this.second = second;
+    }
+  
+    getFirst(): T {
+      return this.first;
+    }
+  
+    getSecond(): U {
+      return this.second;
+    }
+  }
+  
+  let pairInstanceOne = new PairOne<string, number>("Age", 30);
+  console.log(pairInstanceOne.getFirst()); // "Age"
+  console.log(pairInstanceOne.getSecond()); // 30
